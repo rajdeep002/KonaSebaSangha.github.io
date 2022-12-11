@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Black.woff2') format('woff2'),
+        url('fonts/AderoTrial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Thin.woff2') format('woff2'),
+        url('fonts/AderoTrial-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-SemiBold.woff2') format('woff2'),
+        url('fonts/AderoTrial-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Regular.woff2') format('woff2'),
+        url('fonts/AderoTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-ExtraBold.woff2') format('woff2'),
+        url('fonts/AderoTrial-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Medium.woff2') format('woff2'),
+        url('fonts/AderoTrial-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Light.woff2') format('woff2'),
+        url('fonts/AderoTrial-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-ExtraLight.woff2') format('woff2'),
+        url('fonts/AderoTrial-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adero Trial';
+    src: url('fonts/AderoTrial-Bold.woff2') format('woff2'),
+        url('fonts/AderoTrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoBoldItalic.woff2') format('woff2'),
+        url('fonts/AllegationDemoBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoBold.woff2') format('woff2'),
+        url('fonts/AllegationDemoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoRegular.woff2') format('woff2'),
+        url('fonts/AllegationDemoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoItalic.woff2') format('woff2'),
+        url('fonts/AllegationDemoItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoSemiboldItalic.woff2') format('woff2'),
+        url('fonts/AllegationDemoSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Allegation Demo';
+    src: url('fonts/AllegationDemoSemibold.woff2') format('woff2'),
+        url('fonts/AllegationDemoSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+#cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cover img{height: 40%;}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+ body{overflow-x: hidden; background-color: white;}
+ li {list-style: none;}
+ a{display: inline-block;}
+ a:hover,a:focus{text-decoration: none !important; color: white;}
+
+ /* Nav Bar Start */
+
+ .navbar{border-radius: 0; margin: 0 !important; border: 0; padding: 0 ; position: fixed; top: 0; left: 0; z-index: 999; width: 100%;}
+ .navbar-brand{padding-left: 40px; display: flex; justify-content: center; align-items: center; height: 100%;}
+ .navbar-brand img{width: 76px;}
+ .navbar-expand-lg .navbar-collapse{margin-right: 34px;}
+ .nav-link{font-size: 20px; padding-left: 30px !important; font-family: 'Adero Trial';}
+ .dropdown-item{font-size: 16px; font-family: 'Adero Trial';}
+ .nav-link{padding-bottom: 0px;}
+ .nav-item a{color: white !important;}
+ .dropdown-menu{background-color: transparent !important; border: 0 !important;}
+ .dropdown-item:hover{background-color: transparent !important;}
+ .fixed-header{background-color: rgba(0, 0, 0, 0.5);}
+ /* Nav Bar End */
+
+ 
+ /* First Carousel Start */
+
+ .bg-img-1{background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../Assets/Images/JPEG/2B5A9319.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 110vh; position: relative;}
+ .bg-img-2{background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../Assets/Images/c--1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 110vh; position: relative;}
+ .bg-img-3{background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../Assets/Images/c--2.JPG'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 110vh; position: relative;}
+ .over-bg-img{display: flex; justify-content: center; align-items: center; text-align: center; height: 100%;}
+ h1{color: white; font-weight: 800; font-family: 'Adero Trial'; font-size: 60px; line-height: 70px;}
+ .carousel_first .owl-dots{position: absolute; top: 94%; left: 43%;}
+ .carousel_first .owl-theme .owl-dots span{width: 50px; height: 5px ; border-radius: 0; }
+
+/* First Carousel End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kali Puja Page CSS Start*/
+
+
+.my_animation {
+ background:linear-gradient(
+   to left,
+   #003eff,
+   #13ebdb
+ )
+}
+
+.my_animation p {
+ color: #eee;
+ padding-top: 120px;
+ padding-bottom: 20px;
+ font-family: "Coiny", cursive;
+ text-align: center;
+ font-size: 70px;
+ margin-bottom: 40px;
+ -webkit-animation: bounce 0.4s ease infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+      text-shadow: 0 5px 0 #ccc, 0 2px 3px rgba(0, 0, 0, 1);
+    }
+    100% {
+      transform: translateY(-20px);
+      text-shadow: 0 50px 0 #black, 0 0px 20px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+ .kp_first_text{display: flex; justify-content: center; align-items: center; flex-direction: column ; height: 100%;}
+ .kp_first_text label{font-size: 80px; color: black; font-weight: 400;}
+ .kp_first_text p{font-size: 50px; font-family: 'Allegation Demo'; font-weight: 700;}
+
+
+#gallery {padding-bottom: 150px !important;
+  padding-top: 40px;
+}
+.gallery{padding-bottom: 100px  ;}
+
+
+.img-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+.img-wrapper img {
+  width: 100%; height: 80%;
+}
+
+.img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.img-overlay i {
+  color: #fff;
+  font-size: 3em;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#overlay img {
+  margin: 0;
+  width: 80%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 5%;
+}
+@media screen and (min-width: 768px) {
+  #overlay img {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #overlay img {
+    width: 70%;
+  }
+}
+
+#nextButton {
+  color: #fff;
+  font-size: 2em;
+  transition: opacity 0.8s;
+}
+#nextButton:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+  #nextButton {
+    font-size: 3em;
+  }
+}
+
+#prevButton {
+  color: #fff;
+  font-size: 2em;
+  transition: opacity 0.8s;
+}
+#prevButton:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+  #prevButton {
+    font-size: 3em;
+  }
+}
+
+#exitButton {
+  color: #fff;
+  font-size: 2em;
+  transition: opacity 0.8s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#exitButton:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+  #exitButton {
+    font-size: 3em;
+  }
+}
+
+
+
+
+
+/* Kali Puja Page CSS End*/
